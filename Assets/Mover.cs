@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour
 {
-    float xValue = 0.01f;
-    float yValue = 0;
-    float zValue = 0;
+   [SerializeField] float xValue = 0.01f;
+   [SerializeField] float yValue = 0;
+   [SerializeField] float zValue = 0;
     // Start is called before the first frame update
     void Start()
     {
+
     }
 
     // Update is called once per frame
